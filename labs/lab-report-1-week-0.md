@@ -1,1 +1,1 @@
-![Snake image](.../images/snake.png)
+![Snake image](/labs/images/snake.png)
