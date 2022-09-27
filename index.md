@@ -10,4 +10,4 @@ I *hope* that you all have a nice day.
 
 # Labs:
 
-[Lab report 1](...\labs\lab-report-1-week-0.html)
+[Lab report 1](.../labs/lab-report-1-week-0.html)
