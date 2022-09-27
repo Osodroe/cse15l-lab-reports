@@ -1,11 +1,9 @@
-Hello, world!
+# Hello, world!
 
-# Testing markdown formatting
-  
-  - *Italics*
-  
-  - **Bold**
-  
-  ---
-  
-> End of testing
+Very **AWESOME** of everyone to come and visit me today, I hope you all now how just how much that means to me.
+
+I *hope* that you all have a nice day.
+
+---
+
+> Merak
