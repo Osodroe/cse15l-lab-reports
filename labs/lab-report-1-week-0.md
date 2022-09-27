@@ -1,1 +1,1 @@
-![Image](images\Standard Snake.png)
+![Snake image](images/snake.png)
