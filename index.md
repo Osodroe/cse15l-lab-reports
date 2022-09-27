@@ -4,6 +4,10 @@ Very **AWESOME** of everyone to come and visit me today, I hope you all now how 
 
 I *hope* that you all have a nice day.
 
+> Merak
+
 ---
 
-> Merak
+# Labs:
+
+[Lab report 1](...\labs\lab-report-1-week-0.html)
