@@ -11,3 +11,5 @@ I *hope* that you all have a nice day.
 # Labs:
 
 [Lab report 1](/cse15l-lab-reports/labs/lab-report-1-week-0.html)
+
+[Lab report 2](/cse15l-lab-reports/labs/lab-report-2-week-1.html)
