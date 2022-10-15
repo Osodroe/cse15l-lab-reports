@@ -1,4 +1,4 @@
-# Week 3 – Search Engine and Debugging
+# Week 3 – Servers and Bugs
 
 ## Part 1 - Search Engine
 
