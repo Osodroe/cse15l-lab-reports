@@ -59,15 +59,14 @@ class SearchEngine {
 }
 ```
 
-Here is an example of a word being added to the library. We made several method calls for println(), getPath(), contains(), getQuery(), split(), equals(), add(), and format(). println() puts information into the command promt so I can see what is being done on my website. contains() lets us confirm that we are in fact adding a word. getQuery() and split() separate the word we want to add from the URL. equals() just makes sure the URL is formatted correctly. add() puts the new word into the library. format() puts the new word into a single string so we can display and confirm that the new word is in the library. 
-
+Here is an example of a word being added to the library. We made several method calls for println(), getPath(), contains(), getQuery(), split(), equals(), add(), and format(). println() puts information into the command promt so I can see what is being done on my website. contains() lets us confirm that we are in fact adding a word. getQuery() and split() separate the word we want to add from the URL. equals() just makes sure the URL is formatted correctly. add() puts the new word into the library. format() puts the new word into a single string so we can display and confirm that the new word is in the library. <br>
 ![Add Example](/cse15l-lab-reports/labs/images/SearchEngineAddExample.png)
 
-This is an example of the main page of the website after some words have been added to the library. There are some methods being called including getPath(), equals(), join(), and format(). getPath() and equals() checks that we are just on the main page. join() takes all the string in the library and puts them together. format() adds some flavor text to show that everything being shown is in the library. 
+This is an example of the main page of the website after some words have been added to the library. There are some methods being called including getPath(), equals(), join(), and format(). getPath() and equals() checks that we are just on the main page. join() takes all the string in the library and puts them together. format() adds some flavor text to show that everything being shown is in the library. <br>
 
 ![Main Example](/cse15l-lab-reports/labs/images/SearchEngineMainExample.png)
 
-Here is an example of a word being searched for in the library. To search for a word in the list, we have to make several method calls for println(), getQuery(), split(), equals(), size(), get(), contains(), add(), join(), and format(). println() is used to print information onto the command promt for myself. getQuery() and split() are used to separate the word we want to search for from the rest of the URL. equals() is just used to confirm that the URL is in the proper format. size() gives us the size of the library so we can iterate through the whole thing for the new word. get() and contains() pulls an index from the library and checks if it contains some substring. add() is used to add the new word to a buffer list, which we then use join() to put all new words into one string. format() is used to add some extr5a text to confirm that the words being output are the ones that match your search.
+Here is an example of a word being searched for in the library. To search for a word in the list, we have to make several method calls for println(), getQuery(), split(), equals(), size(), get(), contains(), add(), join(), and format(). println() is used to print information onto the command promt for myself. getQuery() and split() are used to separate the word we want to search for from the rest of the URL. equals() is just used to confirm that the URL is in the proper format. size() gives us the size of the library so we can iterate through the whole thing for the new word. get() and contains() pulls an index from the library and checks if it contains some substring. add() is used to add the new word to a buffer list, which we then use join() to put all new words into one string. format() is used to add some extr5a text to confirm that the words being output are the ones that match your search. <br>
 
 ![Search Example](/cse15l-lab-reports/labs/images/SearchEngineSearchExample.png)
 
@@ -101,7 +100,7 @@ public class ListTests {
 }
 ```
 
-After running this text, we see this error. There is some kind of infinite loop that causes the test to not even fully run.
+After running this text, we see this error. There is some kind of infinite loop that causes the test to not even fully run. <br>
 
 ![Search Example](/cse15l-lab-reports/labs/images/ListBugExample.png)
 
@@ -148,7 +147,7 @@ public class ArrayTests {
 }
 ```
 
-After running this code, we get the following error. The code from the ArrayExamples does not properly reverse the array. 
+After running this code, we get the following error. The code from the ArrayExamples does not properly reverse the array. <br>
 
 ![Search Example](/cse15l-lab-reports/labs/images/ArrayBugExample.png)
 
