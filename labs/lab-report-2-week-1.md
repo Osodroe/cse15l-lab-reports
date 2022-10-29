@@ -18,7 +18,7 @@ Now it's time to actually log into your remote account. To log in, you have to u
 
 Running some commands is important for understanding what is available to you in your remote workplace, the commands available, and to just generally undderstand how to interact with a computer in this new way. Feel free to `sd`, `sd ~`, and `cat /home/linux/ieng6/cs15lfa22/public/hello.txt` are all good commands to run, but they are by far not the only ones. Down below is an image of an example of some commands, but feel free to move on to step 4 as soon as you feel you have practiced enough.
 
-![Command Examples](/cse15l-lab-reports/labs/images/CommandExample.png)
+![Command Example](/cse15l-lab-reports/labs/images/CommandExample.png)
 
 ## Step 4: Moving Files over SSH with scp
 
