@@ -68,7 +68,7 @@ This is an example of the main page of the website after some words have been ad
 
 Here is an example of a word being searched for in the library. To search for a word in the list, we have to make several method calls for println(), getQuery(), split(), equals(), size(), get(), contains(), add(), join(), and format(). println() takes a string, in this case the url path found by getPath(), and prints onto the terminal to record what the website is doing. getQuery() returns the query portion of the url which split(), given the string "=", separated the url into two portions. equals() takes a sring and compares it to another, in this case just confirm the url is formated properly. size() returns the number of indexes in a list, which was used to iterate through the list. get() takes an integer and returns the string from that index and contains() takes a string which is used to check for a substring as it iterates through the list. If we find a string that does contain the substring we use it as an argument in add() which adds the found string to a list. join() then takes a separator string and the list, putting every found word into a comma separated list. format() takes this string and formats it into a short statement before being displayed onto the website. <br>
 
-![Search Example](/cse15l-lab-reports/labs/images/CommandExample.png)
+![Command Example](/cse15l-lab-reports/labs/images/CommandExample.png)
 
 ## Part 2 - Debugging
 
