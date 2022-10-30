@@ -1,1 +1,1 @@
-![Snake image](/cse15l-lab-reports/labs/images/snake.png)
+![Snake image](/cse15l-lab-reports/labs/images/lab-1/snake.png)

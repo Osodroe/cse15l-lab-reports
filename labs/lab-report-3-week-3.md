@@ -60,15 +60,15 @@ class SearchEngine {
 ```
 
 Here is an example of a word being added to the library. We made several method calls for println(), getPath(), contains(), getQuery(), split(), equals(), add(), and format(). println() takes a string, in this case the url path, and puts it out onto the terminal so there is a record of what is being done on the website. contains() takes a string, in this case "/add" and lets us confirm that a substring exists within the path found by getPath(). getQuery() specifially returns the query portion of the url and split() splits the query into two portions depending on where the "=" is. equals() takes a string and compares it to another string, just makes sure the URL is formatted correctly. add() takes a string puts the new word into the library. format() takes a string and allows for a sentence to have variable strings formatted in which is then returned and displayed on the website. <br>
-![Add Example](/cse15l-lab-reports/labs/images/SearchEngineAddExample.png)
+![Add Example](/cse15l-lab-reports/labs/images/lab-3/SearchEngineAddExample.png)
 
 This is an example of the main page of the website after some words have been added to the library. There are some methods being called including getPath(), equals(), join(), and format(). equals() takes a sting, in this case "/", and comapres it to the path found by getpath(). join() takes two strings, a separater and the string list, which formats them all into one comma separated list. format() lets us format a string with our string variable, which is then returned and displayed on the website. <br>
 
-![Main Example](/cse15l-lab-reports/labs/images/SearchEngineMainExample.png)
+![Main Example](/cse15l-lab-reports/labs/images/lab-3/SearchEngineMainExample.png)
 
 Here is an example of a word being searched for in the library. To search for a word in the list, we have to make several method calls for println(), getQuery(), split(), equals(), size(), get(), contains(), add(), join(), and format(). println() takes a string, in this case the url path found by getPath(), and prints onto the terminal to record what the website is doing. getQuery() returns the query portion of the url which split(), given the string "=", separated the url into two portions. equals() takes a sring and compares it to another, in this case just confirm the url is formated properly. size() returns the number of indexes in a list, which was used to iterate through the list. get() takes an integer and returns the string from that index and contains() takes a string which is used to check for a substring as it iterates through the list. If we find a string that does contain the substring we use it as an argument in add() which adds the found string to a list. join() then takes a separator string and the list, putting every found word into a comma separated list. format() takes this string and formats it into a short statement before being displayed onto the website. <br>
 
-![Search Example](/cse15l-lab-reports/labs/images/SearchEngineSearchExample.png)
+![Search Example](/cse15l-lab-reports/labs/images/lab-3/SearchEngineSearchExample.png)
 
 ## Part 2 - Debugging
 
@@ -102,7 +102,7 @@ public class ListTests {
 
 After running this text, we see this error. There is some kind of infinite loop that causes the test to not even fully run. <br>
 
-![Search Example](/cse15l-lab-reports/labs/images/ListBugExample.png)
+![Search Example](/cse15l-lab-reports/labs/images/lab-3/ListBugExample.png)
 
 The bug is found in the following section of code. In the final while loop, we can see that the index1 is being itterated when index2 is being used. This causes the while loop to never actual finish, causing the code to fail. After changing index1 to index2 in the loop, the code works fine. 
 
@@ -149,7 +149,7 @@ public class ArrayTests {
 
 After running this code, we get the following error. The code from the ArrayExamples does not properly reverse the array. <br>
 
-![Search Example](/cse15l-lab-reports/labs/images/ArrayBugExample.png)
+![Search Example](/cse15l-lab-reports/labs/images/lab-3/ArrayBugExample.png)
 
 The bug is found in the following section of code. The function reverseInPlace, the for loop not only iterates through the entire array, it also does not properly buffer the swapping values causing many of the values to be completely erased. Dividing arr.length by 2 and adding a buffer variable inside the loop allows for the code to properly reverse the array.
 
