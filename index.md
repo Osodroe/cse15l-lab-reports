@@ -17,3 +17,5 @@ I *hope* that you all have a nice day.
 [Lab report 3](/cse15l-lab-reports/labs/lab-report-3-week-3.html)
 
 [Lab report 4](/cse15l-lab-reports/labs/lab-report-4-week-5.html)
+
+[Lab report 5](/cse15l-lab-reports/labs/lab-report-5-week-7.html)
