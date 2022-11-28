@@ -1,4 +1,4 @@
-# Week 7 – Grade Server
+# Week 9 – Grade Server
 
 For this week, we put together a bash script that will automatically grade a github repository. The grader will then output some information about your grade, such as if it failed to complile or if you failed a test. 
 
